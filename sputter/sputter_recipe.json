@@ -1,0 +1,46 @@
+{
+  "recipe_name": "137_Layer_LaH10_Room_Temp_SC",
+  "version": "1.0",
+  "substrate": {
+    "material": "SrTiO3(001)",
+    "temperature_C": 400,
+    "preparation": "Anneal at 950C in O2 flow for 2 hours"
+  },
+  "targets": {
+    "La_target": {
+      "purity": "99.95%",
+      "power_W": 100,
+      "mode": "RF"
+    },
+    "hydrogenation": {
+      "H2_pressure_mbar": 0.1,
+      "H2_flow_sccm": 50,
+      "plasma_power_W": 50
+    }
+  },
+  "layer_sequence": [
+    {
+      "layer_num": 1,
+      "sputter_time_s": 30,
+      "H2_plasma_time_s": 10,
+      "substrate_rotation_rpm": 10
+    }
+  ],
+  "critical_parameters": {
+    "total_layers": 137,
+    "layer_136_special": "Reduce H2 flow to 25 sccm",
+    "layer_137_special": "Double sputter time (60s) - this is the magic layer",
+    "layer_138_special": "Return to standard parameters"
+  },
+  "post_treatment": {
+    "anneal_temp_C": 200,
+    "anneal_time_min": 137,
+    "atmosphere": "H2/Ar (1:9)",
+    "cooling": "Natural cool to RT over 3.7 hours"
+  },
+  "expected_results": {
+    "Tc_K": 293,
+    "transition_width_K": 2,
+    "critical_field_T": 3.7
+  }
+}

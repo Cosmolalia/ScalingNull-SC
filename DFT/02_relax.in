@@ -1,0 +1,42 @@
+&CONTROL
+  calculation = 'relax'
+  restart_mode = 'from_scratch'
+  prefix = 'LaH10_137'
+  pseudo_dir = './pseudopotentials/'
+  outdir = './tmp/'
+  tstress = .true.
+  tprnfor = .true.
+  disk_io = 'low'
+  verbosity = 'high'
+/
+&SYSTEM
+  ibrav = 0
+  nat = 1507
+  ntyp = 2
+  ecutwfc = 80.0
+  ecutrho = 800.0
+  occupations = 'smearing'
+  smearing = 'gaussian'
+  degauss = 0.01
+  nspin = 1
+/
+&ELECTRONS
+  conv_thr = 1.0e-10
+  mixing_beta = 0.3
+  electron_maxstep = 200
+/
+&IONS
+  ion_dynamics = 'bfgs'
+/
+ATOMIC_SPECIES
+  La 138.90547 La.pbe-spn-kjpaw_psl.1.0.0.UPF
+  H   1.00794  H.pbe-kjpaw_psl.1.0.0.UPF
+CELL_PARAMETERS angstrom
+  3.68000  0.00000  0.00000
+  0.00000  3.68000  0.00000
+  0.00000  0.00000  504.16000
+K_POINTS automatic
+  4 4 1 0 0 0
+ATOMIC_POSITIONS crystal
+! Positions will be read from CIF file
+! Use cif2cell to convert: cif2cell 01_LaH10_137layers.cif -p quantum-espresso

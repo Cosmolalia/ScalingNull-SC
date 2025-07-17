@@ -1,0 +1,12 @@
+&inputph
+  prefix = 'LaH10_137'
+  fildyn = 'LaH10_137.dyn'
+  fildvscf = 'dvscf'
+  ldisp = .true.
+  nq1 = 2
+  nq2 = 2
+  nq3 = 1
+  tr2_ph = 1.0e-14
+  alpha_mix = 0.3
+  nmix_ph = 8
+/
