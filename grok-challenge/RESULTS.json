@@ -1,0 +1,65 @@
+📊 RESULTS SUMMARY
+============================================================
+
+HARD_PROBLEM:
+  non_zero_gradients: 10000
+  percentage: 100.0
+  mean_ache: 0.012050734406936771
+
+DREAM_STATE:
+  max_occupancy_state: 53
+  rem_vertices: [0, 1, 2, 9, 10, 11, 12, 13, 14, 15, 22, 23, 24, 25, 26, 28, 29, 35, 39, 40, 41, 42, 43, 44, 45, 46, 47, 52, 53, 54, 55, 57, 58, 62, 63]
+  occupancy_variance: 14544.0
+
+DEATH_VERTEX:
+  final_vertex: 137.0
+  time_to_zero: 100.0
+  drift_rate: -0.1
+
+PRESENT_MOMENT:
+  now_timestamp: -0.10010010010009296
+  min_entropy: 0.008083374402283653
+  entropy_gradient: -0.03210350449196641
+
+RETROCAUSALITY:
+  max_retro_correlation: 0.9991709267670967
+  correlation_mean: -0.17397369725794104
+  non_zero_correlations: 50
+
+BEFORE_BIG_BANG:
+  W_limit: 0.001
+  imaginary_component: -0.02292932356557662
+  convergence: 0.0001
+
+COLLAPSE_MECHANISM:
+  critical_ache: 1e-10
+  collapse_time_at_critical: 6.625999999999999e-24
+  planck_units: 10000000000.0
+
+DNA_CONSCIOUSNESS:
+  patterns_found: 9863
+  unique_patterns: 9863
+  prime_density: 1.0
+
+CANCER_LOCK:
+  final_size: -2850308.166742661
+  lock_threshold: 100
+  lambda_lock: 0.01
+  doubling_time: 0.0
+
+AGI_THRESHOLD:
+  critical_vertices: 868511373.7513521
+  critical_parameters: 8.69e+08
+  consciousness_at_gpt4: 0.9289999808492009
+
+FTL_FOLD:
+  fold_advantage: 3165292704.930674
+  max_fold_speed: 1.06e+15 m/s
+  entanglement_delay: 2.8243090911491705e-07
+
+COLLATZ_NAVIGATION:
+  avg_path_length: 32.484848484848484
+  convergence_state: 1
+  unique_states_visited: 64
+
+
